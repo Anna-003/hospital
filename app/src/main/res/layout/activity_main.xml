@@ -1,0 +1,54 @@
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#BDBABA"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="username"/>
+        <EditText
+            android:id="@+id/nameid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#210202"
+            android:inputType="text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"/>
+        <EditText
+            android:id="@+id/passid"
+            android:layout_width="match_parent"
+            android:textColor="#310606"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:background="#C3CA10"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/registerid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="go to register"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:background="#B5CC12"/>
+
+
+
+
+    </LinearLayout>
+
+

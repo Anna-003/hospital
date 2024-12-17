@@ -1,0 +1,106 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:background="#BDBABA"
+android:gravity="center"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="name"/>
+<EditText
+    android:id="@+id/nameeid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:textColor="#210202"
+    android:inputType="text"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="address"/>
+<EditText
+    android:id="@+id/addressid"
+    android:layout_width="match_parent"
+    android:textColor="#310606"
+    android:layout_height="wrap_content"
+    android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pincode"/>
+    <EditText
+        android:id="@+id/pincodeid"
+        android:layout_width="match_parent"
+        android:textColor="#310606"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mobile no"/>
+    <EditText
+        android:id="@+id/mobilenoid"
+        android:layout_width="match_parent"
+        android:textColor="#310606"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/usernameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_margin="5dp"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/passworddid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confirm buttom"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/confirmid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_margin="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signupid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="sign up"
+    android:textColor="#FFFFFF"
+    android:layout_margin="10dp"
+    android:background="#C3CA10"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/backid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="back to login"
+    android:textColor="#FFFFFF"
+    android:layout_margin="10dp"
+    android:background="#B5CC12"/>
+</LinearLayout>
+</ScrollView>
+
